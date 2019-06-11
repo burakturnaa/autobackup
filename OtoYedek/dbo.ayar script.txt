@@ -1,0 +1,28 @@
+USE [ayarlar]
+GO
+
+/****** Object:  Table [dbo].[ayar]    Script Date: 07.05.2019 05:23:22 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[ayar](
+	[ayar_id] [int] NOT NULL,
+	[sunucu_adi] [varchar](50) NOT NULL,
+	[kullanici_adi] [varchar](50) NOT NULL,
+	[otomatik_yedek] [varchar](50) NULL,
+	[yedek_gun] [varchar](250) NULL,
+	[yedek_saati] [varchar](50) NULL,
+	[yedek_sil] [int] NULL,
+	[yedek_konum1] [varchar](max) NULL,
+	[yedek_konum2] [varchar](max) NULL,
+	[zamanda_yedekle] [varchar](50) NULL,
+	[yedekleri_arsivle] [varchar](50) NULL,
+	[kullanici_sifre] [varchar](50) NOT NULL,
+	[veritabanlari] [varchar](max) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+
