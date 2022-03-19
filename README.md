@@ -1,1 +1,1 @@
-# autobackup for SQL Server
+# Auto Backup application for SQL Server
