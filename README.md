@@ -1,1 +1,1 @@
-# autobackup
+# autobackup for SQL Server
